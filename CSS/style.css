@@ -141,6 +141,7 @@
     .list {
         list-style: none;
         padding-left: 0;
+        padding: 30px;
     }
     
     .list--inline .list__item {
@@ -813,15 +814,15 @@
     
     .block-domain__price {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 6rem);
-        justify-items: center;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(3, 12rem);
         font-size: 2rem;
         font-weight: 600;
         max-width: 730px;
         margin: 0 auto;
         color: var(--color-headings);
     }
+
     
     @media screen and (min-width:768px) {
         .block-domain__price {
@@ -967,4 +968,17 @@
         .footer__heading {
             font-size: 1.6rem;
         }
+    }
+
+    .logos {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 8rem;
+    }
+
+    .Serato {
+        height: 20rem;
+        width: 20rem;
     }
