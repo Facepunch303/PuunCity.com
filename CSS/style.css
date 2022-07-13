@@ -1,14 +1,14 @@
     /*COLOR PALETTE*/
     
      :root {
-        --color-primary: #2584ff;
-        --color-secondary: #00d9ff;
-        --color-accent: #ff3400;
+        --color-primary: #074a6a;
+        --color-secondary: #042738;
+        --color-accent: #ff4141;
         --color-headings: #1b0760;
-        --color-body: #918ca4;
+        --color-body: #333333;
         --color-border: #ccc;
         --border-radius: 30px;
-        --color-body-darker: #5c5577;
+        --color-body-darker: #222222;
     }
     
     *,
@@ -29,7 +29,7 @@
     }
     
     body {
-        font-family: Inter, Arial, Helvetica, sans-serif;
+        font-family: 'Roboto Mono', monospace;;
         font-size: 2.4rem;
         line-height: 1.5;
         color: var(--color-body);
@@ -354,8 +354,9 @@
         border: 1px solid var(--color-border);
         border-radius: var(--border-radius);
         margin: 5rem;
-        box-shadow: shadow;
         display: flex;
+        background-color: white;
+        
     }
     
     .input-group .input-domain {
@@ -974,7 +975,6 @@
         position: relative;
         justify-content: center;
         transition: transform .2s ease-out;
-        
     }
 
     .logo-image {
@@ -985,10 +985,32 @@
 
     .logos:hover {
         transform: scale(1.3);
+        
     }
 
     .Serato {
         max-width: 125%;
     }
 
+
+
+    .showcase {
+        display: flex;
+        padding: 0 10rem;
+        margin: 0 auto;
+    }
+
+    .showcase-list {
+        display: grid;
+        grid-template-columns: 15rem 15rem 10rem;
+        background-color: #393939;
+        border-radius: var(--border-radius);
+    }
+
+    .showcase-item {
+        text-align: center;
+        color: #27fa00;
+        padding: 0px 20px 10px;
+    }
  
+    
