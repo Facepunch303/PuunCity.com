@@ -977,6 +977,10 @@
         transition: transform .2s ease-out;
     }
 
+    .logo__main {
+        border-radius: 2000px;
+    }
+
     .logo-image {
         object-fit: contain;
         max-height: auto;
